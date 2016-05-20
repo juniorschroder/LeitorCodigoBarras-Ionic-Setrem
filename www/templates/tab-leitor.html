@@ -1,0 +1,14 @@
+<ion-view view-title="Leitor de Codigos de Barras">
+  <ion-content class="padding">
+    <button class="button icon-left ion-qr-scanner button-block button-balanced" ng-click="lerCodigo()">Realizar Leitura</button>
+    <div class="card">
+      <div class="item item-divider">
+        Dados do Cod. de Barras
+      </div>
+      <div class="item item-text-wrap">
+        <h2>Tipo: <strong>{{tipo}}</strong></h2>
+        <h2>Conteudo: <strong>{{texto}}</strong></h2>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

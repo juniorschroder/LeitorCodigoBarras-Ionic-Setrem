@@ -1,0 +1,13 @@
+<ion-view view-title="Historico de leituras">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="registro in dados" type="item-text-wrap">
+        <h2>{{registro.text}}</h2>
+        <p>{{registro.format}}</p>
+        <ion-option-button class="button-assertive" ng-click="remover(registro)">
+          Excluir
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
